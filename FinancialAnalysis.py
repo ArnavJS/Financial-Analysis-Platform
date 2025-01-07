@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 import pandas as pd
 import requests
 import plotly.graph_objects as pg
@@ -78,7 +78,6 @@ def historicalPrices(stock):
                     low=price_df['low'],
                     close=price_df['adjClose'])])
 
-    # fig.write_image("prices.png")
     fig.show()
 
 
